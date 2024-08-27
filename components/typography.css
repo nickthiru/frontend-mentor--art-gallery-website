@@ -1,0 +1,9 @@
+.heading {
+  font-family: var(--font-family-1);
+  color: var(--almost-black);
+}
+
+.heading--xl {
+  font-size: 96px;
+  line-height: 88px;
+}

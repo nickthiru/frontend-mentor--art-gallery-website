@@ -1,0 +1,93 @@
+:root {
+  /* Typography */
+  --font-family-1: "Big Shoulders Display", system-ui, sans-serif;
+  --font-family-2: "Outfit", system-ui, sans-serif;
+
+  --font-size-1: 1rem;
+  --font-size-2: 1.25rem;
+  --font-size-3: 1.75rem;
+  --font-size-4: 2.5rem;
+
+  --font-weight-1: 400;
+  --font-weight-2: 600;
+  --font-weight-3: 700;
+
+  --line-height-1: 100%;
+  --line-height-2: 150%;
+
+  --letter-spacing-0: 0px;
+
+  /* Colors */
+  --gold: #d5966c;
+  --almost-black: #151515;
+  --dark-grey: #444444;
+  --white: #ffffff;
+
+  /* Spacing */
+  /* --space-100: 8px;
+  --space-150: 12px;
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+  --space-600: 48px;
+  --space-1600: 128px; */
+
+  /* Screen Size Breakpoints */
+  /* desktop: 90rem/1440px */
+  /* tablet: 68rem/1088px */
+  /* mobile: 34rem/544px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  color: var(--stone-600);
+  background-color: var(--stone-100);
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
